@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2021"],
+        "target": "es2021",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule" : true,
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "layered/types/*"
+            ]
+        }
+    },
+    "include": [
+        "layered/**/*"
+    ]
+}
